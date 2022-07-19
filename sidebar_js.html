@@ -1,0 +1,8 @@
+<script>
+  const submitButton = document.getElementById("submitButton");
+
+  submitButton.addEventListener("click", () => {
+    google.script.run.header();
+    google.script.run.allFiles();
+  });
+</script>
